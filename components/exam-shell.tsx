@@ -251,7 +251,7 @@ export function ExamShell({ exam, testId }: ExamShellProps) {
       ? `/results?exam=${exam.id}&resultId=${resultId}`
       : `/results?exam=${exam.id}`;
     console.log("[finaliseExam] Navigating to:", url);
-    router.push(url);
+    router.push(url as any);
   };
 
   const submitExam = async () => { await finaliseExam(state); };

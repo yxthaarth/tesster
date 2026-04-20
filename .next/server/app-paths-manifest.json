@@ -1,7 +1,7 @@
 {
-  "/profile/page": "app/profile/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
+  "/api/auth/me/route": "app/api/auth/me/route.js",
+  "/api/results/route": "app/api/results/route.js",
   "/page": "app/page.js",
-  "/register/page": "app/register/page.js",
-  "/admin/page": "app/admin/page.js"
+  "/dashboard/page": "app/dashboard/page.js",
+  "/mock-tests/page": "app/mock-tests/page.js"
 }

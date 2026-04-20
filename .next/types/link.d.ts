@@ -42,7 +42,6 @@ declare namespace __next_route_internal_types__ {
     | `/api/results`
     | `/api/user/phone`
     | `/dashboard`
-    | `/login`
     | `/mock-tests`
     | `/onboarding/phone`
     | `/premium`
@@ -50,6 +49,7 @@ declare namespace __next_route_internal_types__ {
     | `/profile`
     | `/register`
     | `/results`
+    | `/login`
   type DynamicRoutes<T extends string = string> = 
     | `/admin/tests/${SafeSlug<T>}/edit`
     | `/api/admin/layout/${SafeSlug<T>}`
