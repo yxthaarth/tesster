@@ -69,7 +69,7 @@ export default async function AdminPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-white/10">
-              {customExams.map((exam) => (
+              {customExams.map((exam: any) => (
                 <tr key={exam.id} className="text-slate-200">
                   <td className="px-6 py-4 font-medium">{exam.name}</td>
                   <td className="px-6 py-4">{exam.durationMinutes} mins</td>
