@@ -36,7 +36,7 @@ export async function GET(
     ...exam,
     instructions: JSON.parse(exam.instructions),
     paletteLegend: JSON.parse(exam.paletteLegend),
-    questions: exam.questions.map((q) => ({
+    questions: exam.questions.map((q: any) => ({
       ...q,
       options: q.options ? JSON.parse(q.options) : [],
     })),
